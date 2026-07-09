@@ -2,21 +2,29 @@
 
 ## 📋 项目简介
 
-**KyanitePackTool** 是一款功能强大的 Minecraft 材质包处理工具，提供直观的图形用户界面，支持材质包转换、覆盖包制作等多种功能。  
-本项目由 **Hurricane Centre** 开发维护。
+**KyanitePackTool** 是一款功能强大的 Minecraft 材质包处理工具，提供现代化的图形用户界面，支持材质包转换、覆盖包制作等功能。  
+本项目由 **2-Pyramid Studio** 开发维护。
 
 ## ✨ 主要功能
 
 ### 材质包转换
-- 支持 Minecraft 版本 **1.6.0 – 1.21.11**
-- 跨版本材质包格式转换
-- 智能资源适配与优化
+- 支持 Minecraft 版本 **Java 1.6 – 1.21.11**
+- 跨版本材质包格式自动转换
+- 批量拖拽 ZIP / RAR / 7Z / 文件夹
+- 全物品贴图图层修复（Beta）
+- ~~Bedrock 版转换~~（已移除）
 
 ### 覆盖包制作
-- 创建自定义覆盖包
+- 可视化配置覆盖包，自定义物品大小与缩放
+- 自定义物品名称（支持颜色代码与格式）
+- 炫彩边框（GPU 加速）
+- 背包无阴影渲染
+- Java UI 界面替换
 
-### 设置功能
-- 批量处理选项
+### 自动更新
+- 启动时自动检查 GitHub Releases
+- 发现新版本弹窗提示，一键跳转下载
+- 设置页面手动检查更新
 
 ## 🚀 安装与使用
 
@@ -24,56 +32,65 @@
 - Windows 10 (1803+) 及 Windows 11
 - Linux（计划中）
 
+**下载：**
+前往 [GitHub Releases](https://github.com/realLivedInCorner/2-Pyramid/releases) 下载最新版本。
+
 ## 📖 使用指南
 
 ### 1. 材质包转换
-1. 打开程序并选择 “材质包转换” 功能
-2. 选择源材质包文件或文件夹
+1. 打开程序，点击侧边栏「转换」
+2. 拖拽材质包文件 / 文件夹，或点击按钮选择
 3. 选择目标 Minecraft 版本
-4. 点击 “开始转换” 按钮
+4. 点击「开始转换」
 
 ### 2. 覆盖包制作
-1. 选择 “覆盖包制作” 功能
-2. 修改需要的功能选项
-3. 生成并保存覆盖包
+1. 点击侧边栏「覆盖包」
+2. 配置物品大小、自定义名称、边框、其他选项
+3. 点击「开始生成」
 
-### 3. 设置配置
-- 在设置界面调整与程序相关的各项配置
+### 3. 设置
+- 查看当前版本与更新状态
+- 手动检查更新
+- 联系方式入口
 
 ## ⚖️ 许可证
 
-本项目核心代码采用 **MIT 许可证** 开源，详情请见 [LICENSE](LICENSE) 文件。  
-内置第三方独立工具（如 UnRAR 等）遵循其自身许可协议，相关授权文件已随项目一并提供。
+本项目核心代码采用 **MIT 许可证** 开源，详情见 [LICENSE](LICENSE) 文件。  
+内置第三方独立工具（如 UnRAR 等）遵循其自身许可协议。
 
 ## 💖 支持项目
 
-作者在爱发电平台提供测试版本的支持：
-
 👉 [点击前往爱发电支持作者](https://afdian.com/a/asHurricane)
-
-> **注意：** 爱发电平台仅出售测试版本，完整功能版本请通过其他渠道获取。
 
 ## 📞 联系与反馈
 
-- **作者爱发电**：https://afdian.com/a/asHurricane
+- **B站主页**：https://space.bilibili.com/3493094785812897
+- **爱发电**：https://afdian.com/a/asHurricane
+- **GitHub**：https://github.com/realLivedInCorner/Legacy-KyanitePackTool
 
 ## 🔄 更新日志
 
-### v1.3.0
-- 🎉 公开初始版本发布
-- ✅ 支持材质包转换（1.8.9 – 1.21.8）
-- ✅ 覆盖包制作功能
-- ✅ 图形用户界面
+### v1.6.0
+- 🎉 全新现代化 UI 界面（侧边栏导航 + 页面切换动画）
+- ✅ 自动更新功能（检测 GitHub Releases）
+- ✅ 移除 Bedrock Latest 转换选项
+- ✅ 修复 GitHub 链接指向正确仓库
+
+### v1.5.0
+- ✅ 修复因 Alpha 图层导致的"纸片剑"问题
+- ✅ 修复版本命名格式变更导致的前缀替换失效
+- ✅ 新增 RAR 压缩文件格式支持
+- ✅ 修复部分已知问题
 
 ### v1.4.0
 - ✅ 支持材质包转换（1.8.9 – 1.21.11）
 - ✅ 前缀替换功能
 
-### v1.5.0
-- ✅ 修复因 Alpha 图层导致的“纸片剑”问题
-- ✅ 修复因版本命名格式变更导致的前缀替换失效问题
-- ✅ 新增对 RAR 压缩文件格式的支持，包括但不限于标准 RAR 文件及后缀被修改为 .zip 的 RAR 文件
-- ✅ 修复部分已知问题
+### v1.3.0
+- 🎉 公开初始版本发布
+- ✅ 材质包转换（1.8.9 – 1.21.8）
+- ✅ 覆盖包制作功能
+- ✅ 图形用户界面
 
 ## 🙏 致谢
 
@@ -81,10 +98,10 @@
 
 ## 📄 版权与免责声明
 
-- **Minecraft** 是 Mojang Synergies AB（微软旗下全资子公司）的注册商标，相关品牌标识与知识产权均归 Mojang Synergies AB 及 Microsoft 所有。
-- **KyanitePackTool** 由 Hurricane Centre 独立自主研发，与 Mojang Synergies AB、Microsoft 不存在任何关联、授权、赞助、背书或合作关系。
-- 本工具仅面向玩家自制内容，专用于 Minecraft 材质包格式转换、覆盖包制作等非官方辅助处理，不包含任何 Mojang 官方源代码、游戏资源、美术素材及受版权保护的核心内容。
+- **Minecraft** 是 Mojang Synergies AB（微软旗下全资子公司）的注册商标。
+- **KyanitePackTool** 由 2-Pyramid Studio 独立自主研发，与 Mojang Synergies AB、Microsoft 不存在任何关联。
+- 本工具仅面向玩家自制内容，不包含任何 Mojang 官方源代码、游戏资源及受版权保护的核心内容。
 
 ---
 
-**Copyright © 2025-2026 Hurricane Centre. All Rights Reserved.**
+**Copyright © 2025-2026 2-Pyramid Studio. All Rights Reserved.**
