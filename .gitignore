@@ -1,0 +1,26 @@
+# Rust
+rust/
+
+# Build artifacts
+dist/
+build/
+*.spec
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+.trae/
+
+# Temp / overlay / converted output
+temp_overlay/
+converted_packs/
+config/
+
+# Misc
+*.log
+UnRAR.exe
